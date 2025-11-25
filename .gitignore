@@ -1,0 +1,9 @@
+__pycache__/
+*.pyd
+
+
+# 构建产物
+build/
+dist/
+*.egg-info/
+
