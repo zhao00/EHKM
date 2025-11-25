@@ -2,7 +2,7 @@ import numpy as np
 import time
 from utils import loadmat, evaluate_performance
 from EHKM import EHKM
-# from pynndescent import NNDescent     ## https://github.com/lmcinnes/pynndescent
+from pynndescent import NNDescent     ## https://github.com/lmcinnes/pynndescent
 
 data_path  = './dataset/'
 dataset_list = ['Letter','USPS']
